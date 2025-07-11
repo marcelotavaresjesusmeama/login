@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="cabecalho1">
+        <h1>TaSys</h1>
+    </div>
+
+    <div class="cabecalho2">
+        <h2> &#8226; Você estar logado</h2>
+    </div>
+    <p id="dataAtual"></p>
+    <script>
+        const data = new Date();
+        const dia = String(data.getDate()).padStart(2, '0');
+        const mes = String(data.getMonth() + 1).padStart(2, '0'); // Mês começa em 0
+        const ano = data.getFullYear();
+        const dataFormatada = `${dia}/${mes}/${ano}`;
+        document.getElementById("dataAtual").textContent = dataFormatada;
+    </script>
+    <br>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Clientes</a></li>
+        <li><a href="#">Financeiro</a></li>
+        <li><a href="#">Estoque</a></li>
+        <li><a href="#">Relatório</a></li>
+        <li><a href="#">Administração</a></li>
+        <li><a href="index.html">Sair</a></li>
+    </ul>
+
+</body>
+
+</html>

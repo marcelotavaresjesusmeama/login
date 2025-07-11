@@ -84,10 +84,20 @@ body{
   margin-top: 20px;
 }
 
+.login a{
+    color: #070707;
+    text-decoration: none; /*tira a linha ex: ___ na escrita*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
 .login:hover{
     background-color: transparent;
     border: 2px solid;
-    color: #fff;
+    color: #ffffff;
     transition: 0.5s;
 }
 
@@ -97,7 +107,11 @@ body{
 }
 
 a{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    text-decoration: none; /*tira a linha ex: ___ na escrita*/
+    transition: 0.5s;
+    font-size: 15px
+
 }
 
 .container h1{
