@@ -11,11 +11,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-image: url('gift/background\ login.gif'); /*papel de parede arquivo local*/
+    height: 100dvh;
+    background-image: url('img/numero-da-claro.jpg'); /*papel de parede arquivo local*/
     background-size: cover; /* cobre toda a tela */
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.finish{
+    font-size: 500px;
 }
 
 .inputbox{
@@ -118,7 +122,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: aliceblue;
+    color: rgb(192, 16, 16);
     font-size: 100px;
 }
 
@@ -127,6 +131,15 @@ a{
     justify-content: center;
     align-items: center;
     color: aliceblue;
+    font-size: 40px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
 
 }
 
